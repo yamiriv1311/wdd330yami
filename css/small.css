@@ -1,0 +1,38 @@
+
+
+/* --------- BODY*/
+
+  body{
+    max-width: 340px;
+  }
+
+ 
+    
+/* --------- PHOTOS*/
+
+  .yami_pic{
+    width: 170px;
+    border-radius: 20px;
+    margin-left: -40px;
+  }
+
+
+  /* --------- DIVS*/
+
+  .div_name_pic{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+/* --------- TEXTS*/
+  .myname{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .titlePortfolio{
+    margin-left: 20px;
+    margin-top: -90px;
+  }
