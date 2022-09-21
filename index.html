@@ -6,38 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Assignment Portal for Yami Rivero in WDD230: Web Frontend Development at BYU-I">
     <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <title> WDD330 Portfolio-Yami Rivero</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
   </head>
 
 
-  <body>
- 
-    <header>
-      <div class="div_name_pic">
-        <h1 class="myname">Yamileth Rivero </h1>
-        <img src="images/me.jpg" alt="Yami Rivero" class="yami_pic">
+  <body style="background-image: url(images/grape.jpg);">
+    
+    <div class="div_body">
+      <header>
+        <div class="div_name_pic">
+          <h1 class="myname">Yamileth Rivero </h1>
+          <h1 class="mynameMedium">Yamileth <br> Rivero </h1>
+          <img src="images/me.jpg" alt="Yami Rivero" class="yami_pic">
+        </div>
+      </header> 
+
+      <div class="div_Notes_titlePortfolio">
+        <h2 class="titlePortfolio"> <br>WDD 330 Portfolio</h2>
+
+        <div class="div_notes">
+          <hr>
+            <ul class="links_list">
+              <li>L01: <a href="https://view.genial.ly/6322a217990ade0011e0bbf7/presentation-presentacion-asignatura"> Reading notes</a></li>
+              <li>L02:<a href="notes/L02 Notes Yamileth Rivero.pdf"> Reading notes <br><br></a></li>
+        </div>
       </div>
-    </header> 
-
-    <h2 class="titlePortfolio">WDD 330 <br> Portfolio</h2>
-
-    <div>
-      <hr>
-        <ul class="links_list">
-          <li>L01: <a href="https://view.genial.ly/6322a217990ade0011e0bbf7/presentation-presentacion-asignatura"> Reading notes</a></li>
-          <li>L02:<a href="notes/L02 Notes Yamileth Rivero.pdf">Reading notes</a></li>
-      <hr>
-    </div>
 
       <footer>
-          <p>
-            &copy; <span id="year"></span>
-            |Yamileth Rivero G.
-            |Toluca
-          </p>
-          <p class="updated_date">Last Update: <span id="date"></span></p>
+        <div class="div_footer">
+          <p> <br>&copy; <span id="year"></span>Yamileth Rivero G.</p>
+          <p>Last Update: <span id="date"></span><br><br></p>
+        </div>
       </footer>
       <script src="js/index.js"></script>
-    
+      
+    </div>
+
   </body>
 </html>

@@ -1,38 +1,67 @@
 
-
 /* --------- BODY*/
 
   body{
     max-width: 340px;
   }
 
- 
-    
 /* --------- PHOTOS*/
 
   .yami_pic{
-    width: 170px;
+    width: 40%;
     border-radius: 20px;
-    margin-left: -40px;
+    margin: 14px;
   }
 
 
   /* --------- DIVS*/
 
+  .div_body{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgba(232, 236, 234, 0.685);
+  }
+
   .div_name_pic{
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  }
+
+  .div_footer{
+    text-align: center;
+    color: #a387b0;
+    background-color: #451F55;
+  }
+
+  .div_notes{
+    margin-bottom: 2rem;
   }
 
 /* --------- TEXTS*/
   .myname{
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 55px;
     margin-left: 10px;
   }
 
+  .mynameMedium{
+    display: none;
+  }
+
   .titlePortfolio{
-    margin-left: 20px;
-    margin-top: -90px;
+    text-align: center;
+    color: #451F55;
+    font-family: 'Dangrek', cursive;
+    font-size: 25px;
+  }
+
+  li{
+    font-size: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #734985;
   }

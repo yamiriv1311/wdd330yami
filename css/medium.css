@@ -1,0 +1,50 @@
+
+
+@media only screen and (min-width: 390px) {
+
+  /* --------- BODY*/
+    body{
+      max-width: 660px;
+    }
+
+
+  /* --------- TEXTS*/
+    .myname{display: none;}
+
+    .mynameMedium{
+      display: block;
+      font-size: 60px;
+      margin-left: 70px;
+      margin-top: 80px;
+    }
+
+  /* --------- DIVS*/
+    .div_body{
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      background-color: transparent;
+    }
+
+    .div_footer{
+      border-radius: 30px;
+      width: 90%;
+      margin-left: 30px;
+      text-align: center;
+      color: #a387b0;
+      background-color: #451F55;
+    }
+
+    .div_Notes_titlePortfolio{
+      background-color: rgba(232, 236, 234, 0.685);
+    }
+  
+  /* --------- PHOTOS*/
+
+  .yami_pic{
+    width: 40%;
+    border-radius: 20px;
+    margin: 14px;
+  }
+}
